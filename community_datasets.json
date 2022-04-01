@@ -1,27 +1,33 @@
 [
   {
-    "title": "Global Shoreline Dataset",
+    "title": "Global Shoreline Mainlands",
     "sample_code": "https://code.earthengine.google.com/609a16955ed07b282fcd4bff4750f814",
     "type": "table",
     "id": "projects/sat-io/open-datasets/shoreline/mainlands",
     "provider": "United States Geological Survey, USGS",
     "tags": "Global Shoreline, Shoreline, mainlands, Oceans"
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual"
   },
   {
-    "title": "Global Shoreline Dataset",
+    "title": "Global Shoreline Big Islands",
     "sample_code": "https://code.earthengine.google.com/609a16955ed07b282fcd4bff4750f814",
     "type": "table",
     "id": "projects/sat-io/open-datasets/shoreline/big_islands",
     "provider": "United States Geological Survey, USGS",
-    "tags": "Global Shoreline, Shoreline, big islands, Oceans"
+    "tags": "Global Shoreline, Shoreline, big islands, Oceans",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual"
   },
   {
-    "title": "Global Shoreline Dataset Small Islands",
+    "title": "Global Shoreline Small Islands",
     "sample_code": "https://code.earthengine.google.com/609a16955ed07b282fcd4bff4750f814",
     "type": "table",
     "id": "projects/sat-io/open-datasets/shoreline/small_islands",
     "provider": "United States Geological Survey, USGS",
-    "tags": "Global Shoreline, Shoreline, small islands, Oceans"
+    "tags": "Global Shoreline, Shoreline, small islands, Oceans",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual"
   },
   {
     "title": "OSM Water Layer Surface Waters",
@@ -29,7 +35,9 @@
     "type": "image_collection",
     "id": "projects/sat-io/open-datasets/shoreline/small_islands",
     "provider": "Institute of Industrial Sciences, Open Street Map, OSM",
-    "tags": "Global water layer, Open Street Map, OSM, Surface Water"
+    "tags": "Global water layer, Open Street Map, OSM, Surface Water",
+    "spatial_resolution": 90,
+    "temporal_resolution": "one-time"
   },
   {
     "title": "Global 30m Height Above the Nearest Drainage with Number of River head threshold cells 100",
@@ -37,7 +45,9 @@
     "type": "image_collection",
     "id": "users/gena/global-hand/hand-100",
     "provider": "Gennaddi Donchyts, Deltares",
-    "tags": "Global Hand, Hydrology, drainage, hand"
+    "tags": "Global Hand, Hydrology, drainage, hand",
+    "spatial_resolution": 30,
+    "temporal_resolution": "one-time"
   },
   {
     "title": "Global 30m Height Above the Nearest Drainage with Number of River head threshold cells 1000",
@@ -45,7 +55,9 @@
     "type": "image",
     "id": "users/gena/GlobalHAND/30m/hand-1000",
     "provider": "Gennaddi Donchyts, Deltares",
-    "tags": "Global Hand, Hydrology, drainage, hand"
+    "tags": "Global Hand, Hydrology, drainage, hand",
+    "spatial_resolution": 30,
+    "temporal_resolution": "one-time"
   },
   {
     "title": "Global 90m Height Above the Nearest Drainage with Number of River head threshold cells 1000",
@@ -53,7 +65,9 @@
     "type": "image",
     "id": "users/gena/GlobalHAND/90m-global/hand-1000",
     "provider": "Gennaddi Donchyts, Deltares",
-    "tags": "Global Hand, Hydrology, drainage, hand"
+    "tags": "Global Hand, Hydrology, drainage, hand",
+    "spatial_resolution": 90,
+    "temporal_resolution": "one-time"
   },
   {
     "title": "Global Mangrove Extent 1996",
@@ -61,7 +75,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_1996_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual"
   },
   {
     "title": "Global Mangrove Extent 2007",
@@ -69,7 +85,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_2007_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual
   },
   {
     "title": "Global Mangrove Extent 2008",
@@ -77,7 +95,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_2008_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual
   },
   {
     "title": "Global Mangrove Extent 2009",
@@ -85,7 +105,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_2009_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual
   },
   {
     "title": "Global Mangrove Extent 2010",
@@ -93,7 +115,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_2010_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual
   },
   {
     "title": "Global Mangrove Extent 2015",
@@ -101,7 +125,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_2015_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual
   },
   {
     "title": "Global Mangrove Extent 2016",
@@ -109,7 +135,9 @@
     "type": "table",
     "id": "projects/sat-io/open-datasets/GMW/GMW_2016_v2",
     "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-    "tags": "Global, Mangrove, GMW"
+    "tags": "Global, Mangrove, GMW",
+    "spatial_resolution": 30,
+    "temporal_resolution": "annual
   },
   {
     "title": "Cloud Forest Prediction",
