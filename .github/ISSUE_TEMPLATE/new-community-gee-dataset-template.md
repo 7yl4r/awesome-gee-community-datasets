@@ -1,6 +1,6 @@
 ---
 name: New Community GEE Dataset Template
-about: Describe this issue template's purpose here.
+about: This issue template is for submission of a new dataset.
 title: Dataset & Curator Name
 labels: ''
 assignees: samapriya
@@ -41,3 +41,9 @@ Curated by: Uploaders and curators name(s) include all you think helped
 Keywords: For example Global Shoreline, Coastline, Oceans
 
 Last updated: Last date you updated the dataset
+
+Spatial resolution: Size of one pixel in kilometers
+
+Temporal resolution: Amount of time between images. Should be one of {`granule`, `daily`, `8d`, `monthly`, `annual`} or similar. 
+
+
