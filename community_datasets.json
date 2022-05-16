@@ -359,7 +359,7 @@
     "title": "Mapbiomas: Final Integrated Land Use Land Cover Maps",
     "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
     "type": "image",
-    "id": "projects/mapbiomas-workspace/public/collection5/mapbiomas_collection50_integration_v1",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_integration_v1",
     "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
     "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon"
   },
@@ -367,15 +367,95 @@
     "title": "Mapbiomas: Maps of transition areas (change in coverage or use) between selected years",
     "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
     "type": "image",
-    "id": "projects/mapbiomas-workspace/public/collection5/mapbiomas_collection50_transitions_v1",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_transitions_v1",
     "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
     "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Transition"
   },
   {
-    "title": "Mapbiomas: Mosaic of Landsat Images for each year of Collection 5",
+    "title": "Mapbiomas: Maps of quality (change in coverage or use) between selected years",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image",
+    "id": "projects/mapbiomas-workspace/public/collection5/mapbiomas_collection50_quality_v1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Transition"
+  },
+  {
+    "title": "Mapbiomas: Maps of irrigated agriculture",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_irrigated_agriculture_v1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Transition"
+  },
+  {
+    "title": "Mapbiomas: Mosaic of Landsat Images for each year of Collection 6",
     "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
     "type": "image_collection",
-    "id": "projects/mapbiomas-workspace/MOSAICOS/workspace-c3",
+    "id": "projects/nexgenmap/MapBiomas2/LANDSAT/mosaics",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of Mined substances Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_mined_substance_v1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of Pasture quality Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_pasture_quality_v1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of Annual water coverage Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas-water-collection1-annual-water-coverage-1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of Annual water frequency Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas-water-collection1-water-frequency-1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of annual burned coverage Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas-fire-collection1-annual-burned-coverage-1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of monthly burned coverage Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas-fire-collection1-monthly-burned-coverage-1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of fire frequency Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas-fire-collection1-fire-frequency-1",
+    "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
+    "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
+  },
+  {
+    "title": "Mapbiomas: Maps of Deforestation Regeneration Collection 6",
+    "sample_code": "https://code.earthengine.google.com/3d07ce796edba49bcd2cf18931dff541?accept_repo=users%2Fmapbiomas%2Fuser-toolkit",
+    "type": "image_collection",
+    "id": "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_deforestation_regeneration_v1",
     "provider": "MapBiomas,Greenhouse Gas Emissions Estimation System (SEEG)",
     "tags": "Mapbiomas, Land Use, Land Cover, Brazil,Amazon, Landsat, Mosaic"
   },
@@ -861,7 +941,7 @@
   },
   {
     "title": "GEBCO 2021 Grid",
-    "sample_code": "https://code.earthengine.google.com/ce7efb01d2de4848e61cf499da800dfe",
+    "sample_code": "https://code.earthengine.google.com/c1ddba42c1a75fd43fe0d6a38046e0a4",
     "type": "image_collection",
     "id": "projects/sat-io/open-datasets/gebco/gebco_grid",
     "provider": "General Bathymetric Chart of the Oceans (GEBCO), Nippon Foundation-GEBCO Seabed 2030 Project",
@@ -869,7 +949,7 @@
   },
   {
     "title": "GEBCO 2021 sub-ice topo/bathy",
-    "sample_code": "https://code.earthengine.google.com/ce7efb01d2de4848e61cf499da800dfe",
+    "sample_code": "https://code.earthengine.google.com/c1ddba42c1a75fd43fe0d6a38046e0a4",
     "type": "image_collection",
     "id": "projects/sat-io/open-datasets/gebco/gebco_sub-ice-topo",
     "provider": "General Bathymetric Chart of the Oceans (GEBCO), Nippon Foundation-GEBCO Seabed 2030 Project",
@@ -877,7 +957,7 @@
   },
   {
     "title": "GEBCO 2021 Type Identifier (TID) Grid",
-    "sample_code": "https://code.earthengine.google.com/ce7efb01d2de4848e61cf499da800dfe",
+    "sample_code": "https://code.earthengine.google.com/c1ddba42c1a75fd43fe0d6a38046e0a4",
     "type": "image_collection",
     "id": "projects/sat-io/open-datasets/gebco/gebco_tid_grid",
     "provider": "General Bathymetric Chart of the Oceans (GEBCO), Nippon Foundation-GEBCO Seabed 2030 Project",
@@ -5535,7 +5615,7 @@
     "title": "Global urban extents from 1870 to 2100: observed_extent",
     "sample_code": "https://code.earthengine.google.com/ca5b1a99dc41f3b3daf8661ea3d32291",
     "type": "image_collection",
-    "id": "projects/sat-io/open-datasets/global-urban-extents/observed_urban_extentt",
+    "id": "projects/sat-io/open-datasets/global-urban-extents/observed_urban_extent",
     "provider": " Li, Xuecao, Yuyu Zhou, Mohamad Hejazi, Marshall Wise, Chris Vernon, Gokul Iyer, and Wei Chen",
     "tags": "Cellular Automata, Urban sprawl, temporal trend, Nighttime lights, hindcasts, Forecast"
   },
@@ -6330,5 +6410,413 @@
     "id": "projects/sat-io/open-datasets/ASTER/ASTWBD_ATT",
     "provider": "NASA, METI, AIST, Japan Spacesystems and U.S./Japan ASTER Science Team",
     "tags": "ASTER, DEM, elevation, remote sensing, Water Bodies Database"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : aet",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/aet",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : def",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/def",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : pet",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/pet",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : ppt",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/ppt",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : soil",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/soil",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : srad",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/srad",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : swe",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/swe",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : tmax",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/tmax",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : tmin",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/tmin",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : vap",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/vap",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +2C : vpd",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/2C/vpd",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : aet",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/aet",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : def",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/def",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : pet",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/pet",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : ppt",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/ppt",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : soil",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/soil",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : swe",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/swe",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : tmax",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/tmax",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : tmin",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/tmin",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "TerraClimate layer commensurate with global mean temperatures +4C : vpd",
+    "sample_code": "https://code.earthengine.google.com/a229056c55d1fa89dfd01acbea0f6515",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/TERRACLIMATE/4C/vpd",
+    "provider": "Abatzoglou, J.T., S.Z. Dobrowski, S.A. Parks, K.C. Hegewisch",
+    "tags": "Climate futures, +2C, +4C, TerraClimate"
+  },
+  {
+    "title": "MODIS MCD14ML (standard quality) active fire vector data",
+    "sample_code": "https://code.earthengine.google.com/39646c35f93d2af31a6993db773dac8d",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/MODIS_MCD14DL/MCD14DL_2012",
+    "provider": "Land, Atmosphere Near real-time Capability for EOS (LANCE) for Fire Information for Resource Management System (FIRMS), NASA",
+    "tags": "Archival fire, MODIS, VIIRS, Daytime, Nigh time, Thermal anomalies, FIRMS, LANCE, NASA, vector"
+  },
+  {
+    "title": "VIIRS VNP14IMGTDL_NRT active fire vector data",
+    "sample_code": "https://code.earthengine.google.com/39646c35f93d2af31a6993db773dac8d",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/VIIRS/VNP14IMGTDL_NRT_2012",
+    "provider": "Land, Atmosphere Near real-time Capability for EOS (LANCE) for Fire Information for Resource Management System (FIRMS), NASA",
+    "tags": "Archival fire, MODIS, VIIRS, Daytime, Nigh time, Thermal anomalies, FIRMS, LANCE, NASA, vector"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : NHDArea",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/NHDArea",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : NHDFlowline",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/NHDFlowline",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : NHDLine",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/NHDLine",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : NHDPoint",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/NHDPoint",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : NHDPointEventFC",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/NHDPointEventFC",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : NHDWaterbody",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/NHDWaterbody",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU10",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU10",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU12",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU12",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU14",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU14",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU2",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU2",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU4",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU4",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU6",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU6",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDHU8",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDHU8",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "National Hydrography Dataset(NHD) : WBDLine",
+    "sample_code": "https://code.earthengine.google.com/3811f6aab0c7b6035494f8c804956e30",
+    "type": "table",
+    "id": "projects/sat-io/open-datasets/NHD/NHD_MO/WBDLine",
+    "provider": "United States Geological Survey (USGS)",
+    "tags": "Hydrography, Hydrologic, United States, USGS, NHD, National Hydrography Dataset"
+  },
+  {
+    "title": "ETH_GlobalCanopyHeight_2020_10m_v1",
+    "sample_code": "https://code.earthengine.google.com/126c172d63e7ce780596c8d26f06d384",
+    "type": "image",
+    "id": "users/nlang/ETH_GlobalCanopyHeight_2020_10m_v1",
+    "provider": "Lang, Nico, Walter Jetz, Konrad Schindler, and Jan Dirk Wegner",
+    "tags": "Sentinel-2, Forest, Canopy Height, Machine Learning, CNN"
+  },
+  {
+    "title": "ETH_GlobalCanopyHeightSD_2020_10m_v1",
+    "sample_code": "https://code.earthengine.google.com/126c172d63e7ce780596c8d26f06d384",
+    "type": "image",
+    "id": "users/nlang/ETH_GlobalCanopyHeightSD_2020_10m_v1",
+    "provider": "Lang, Nico, Walter Jetz, Konrad Schindler, and Jan Dirk Wegner",
+    "tags": "Sentinel-2, Forest, Canopy Height, Machine Learning, CNN"
+  },
+  {
+    "title": "Global Forest Carbon Fluxes: Gross Emissions",
+    "sample_code": "https://code.earthengine.google.com/d6d6390f0a9eafdaeb9766022b64065e",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/forest_carbon_fluxes/gross_emissions",
+    "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
+    "tags": "Carbon emissions, forest change, climate, carbon"
+  },
+  {
+    "title": "Global Forest Carbon Fluxes: Gross Removals",
+    "sample_code": "https://code.earthengine.google.com/d6d6390f0a9eafdaeb9766022b64065e",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/forest_carbon_fluxes/gross_removals",
+    "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
+    "tags": "Carbon emissions, forest change, climate, carbon"
+  },
+  {
+    "title": "Global Forest Carbon Fluxes: Net Flux",
+    "sample_code": "https://code.earthengine.google.com/d6d6390f0a9eafdaeb9766022b64065e",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux",
+    "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
+    "tags": "Carbon emissions, forest change, climate, carbon"
+  },
+  {
+    "title": "Iceland DEM v1.0 10m",
+    "sample_code": "https://code.earthengine.google.com/34517ab5c05be78e5f7d9227a4ca7b7e",
+    "type": "image",
+    "id": "projects/ee-landmaelingar/assets/IslandsDEMv1_10m_isn93",
+    "provider": "National Land Survey of Iceland & PGC",
+    "tags": "Elevation, DEM, ArticDEM, Iceland, Geophysical"
+  },
+  {
+    "title": "Gridded GDP PPP 5arcmin v2",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/GDP_PPP_1990_2015_5arcmin_v2",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "Gridded GDP PPP 30arcsec v2",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/GDP_PPP_30arcsec_v3",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "GDP per capita v2",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/GDP_per_capita_PPP_1990_2015_v2",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "Gridded HDI v2",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/HDI_1990_2015_v2",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "Administrative area Gridded GDP & HDI",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/admin_areas_GDP_HDI",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "Pedigree GDP per capita 1990-2015 v2",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/pedigree_GDP_per_capita_PPP_1990_2015_v2",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "Pedigree HDI per capita 1990-2015 v2",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/GRIDDED_HDI_GDP/pedigree_HDI_1990_2015_v2",
+    "provider": "Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A.",
+    "tags": "Development indicator, global spatial data, gridded data, Gross Domestic Product (GDP), Human Development Index (HDI), Purchasing Power Parity (PPP)"
+  },
+  {
+    "title": "Critical Infrastructure Spatial Index 2021",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image",
+    "id": "projects/sat-io/open-datasets/CISI/global_CISI",
+    "provider": "Nirandjan, S., Koks, E.E., Ward, P.J. et al",
+    "tags": "Development indicator, global spatial data, gridded data, critical infrastructure, spatial index"
+  },
+  {
+    "title": "Harmonized Global Critical Infrastructure 2021",
+    "sample_code": "https://code.earthengine.google.com/75ab868ddbf11372285c4bc009655f1d",
+    "type": "image_collection",
+    "id": "projects/sat-io/open-datasets/CISI/amount_infrastructure",
+    "provider": "Nirandjan, S., Koks, E.E., Ward, P.J. et al",
+    "tags": "Development indicator, global spatial data, gridded data, critical infrastructure, spatial index"
   }
 ]
